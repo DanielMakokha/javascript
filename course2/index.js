@@ -1,14 +1,30 @@
-// javascript function
+// let num1=10;
+// let num2=num1;
+// num1+=1;
+// num2++;
+// console.log(num1)
+// console.log(num2)
 
-// function showMyname(name){
-//     console.log('My name is: ',name)
-// }
-// showMyname('Daniel');
-// showMyname('Felix');
-// showMyname('Geoffrey');
+// Comparison operators
+// let price =200;
+// console.log(price>300);
 
-function calsum(num1,num2) {
-    return num1+num2
-}
-const result=calsum(40,30);
-console.log(result)
+// logical operators
+
+// let price=10;
+// console.log(price>50 && price<15)
+
+// Equality operators
+// let price=10;
+// console.log(price===10);
+// console.log(price !==10);
+
+// Swap two numbers
+let apple=10;
+let orange=20;
+
+// Swap these values
+let temp=apple;
+apple=orange;
+orange=temp;
+console.log(apple,orange);
